@@ -1,0 +1,39 @@
+body {
+  height: 1000px;
+}
+/* grid container */
+#root {
+  height: 100%;
+}
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+}
+a:hover {
+  color: rgb(255, 4, 4);
+}
+header {
+  padding: 0.8rem;
+  background-color: rgb(253, 179, 117);
+  color: #fff !important;
+  font-size: 1.1rem;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+main {
+}
+footer {
+  padding: 0.8rem;
+  background-color: rgb(253, 179, 117);
+  color: #fff !important;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
